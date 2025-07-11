@@ -1,0 +1,28 @@
+# Python 相关
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.swp
+
+# Django 本地数据库
+db.sqlite3
+
+# 环境文件
+.env
+.venv/
+venv/
+Pipfile.lock
+poetry.lock
+
+# IDE 设置（PyCharm）
+.idea/
+*.iml
+
+# 静态文件排除商品图
+static/product_images/
+
+# 其它日志或临时文件
+*.log
+.DS_Store
+Thumbs.db
